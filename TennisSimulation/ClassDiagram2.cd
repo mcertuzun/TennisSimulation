@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Program" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TournamentSimulation.Serializer.JsonDeserializer&lt;T&gt;" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAABAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>JsonDeserializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TournamentSimulation.Tournament.SeasonController" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>SeasonController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TournamentSimulation.Tournament.TournamentControllerBase" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAAAABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TournamentControllerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TournamentSimulation.Tournament.EliminationTournamentController">
+    <Position X="5.75" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EliminationTournamentController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TournamentSimulation.Tournament.LeagueTournamentController">
+    <Position X="8" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LeagueTournamentController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TournamentSimulation.Round.RoundControllerBase" Collapsed="true">
+    <Position X="13.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAIAAAAAAgAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>RoundControllerBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="TournamentSimulation.Round.EliminationRoundController" Collapsed="true">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAEEIBAAAAAAAAEAACAAAAAAAAAA=</HashCode>
+      <FileName>EliminationRoundController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TournamentSimulation.Round.LeagueRoundController" Collapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAACAAAEIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LeagueRoundController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TournamentSimulation.Match.MatchControllerBase">
+    <Position X="10.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgACABAAAAAE=</HashCode>
+      <FileName>MatchControllerBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TournamentSimulation.Match.NormalMatchController">
+    <Position X="10.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NormalMatchController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TournamentSimulation.Tournament.TournamentFactory">
+    <Position X="11.25" Y="1.5" Width="1.75" />
+    <Members>
+      <Method Name="CreateTournamentController" Hidden="true" />
+      <Method Name="EliminationSetup" Hidden="true" />
+      <Method Name="LeagueSetup" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAEAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>TournamentFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="TournamentSimulation.Data.SeasonData">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>SeasonData.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="TournamentSimulation.Serializer.IDeserializer&lt;T&gt;" Collapsed="true">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDeserializer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TournamentSimulation.Match.IMatchController" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <Members>
+      <Method Name="Play" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>IMatchController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,10 @@
+C:\Users\MCErt\source\repos\TennisSimulation\TennisSimulation\obj\Debug\TennisSimulation.csproj.AssemblyReference.cache
+C:\Users\MCErt\source\repos\TennisSimulation\TennisSimulation\obj\Debug\TennisSimulation.csproj.CoreCompileInputs.cache
+C:\Users\MCErt\source\repos\TennisSimulation\TennisSimulation\bin\Debug\TennisSimulation.exe.config
+C:\Users\MCErt\source\repos\TennisSimulation\TennisSimulation\bin\Debug\TennisSimulation.exe
+C:\Users\MCErt\source\repos\TennisSimulation\TennisSimulation\bin\Debug\TennisSimulation.pdb
+C:\Users\MCErt\source\repos\TennisSimulation\TennisSimulation\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MCErt\source\repos\TennisSimulation\TennisSimulation\bin\Debug\Newtonsoft.Json.xml
+C:\Users\MCErt\source\repos\TennisSimulation\TennisSimulation\obj\Debug\TennisSimulation.csproj.CopyComplete
+C:\Users\MCErt\source\repos\TennisSimulation\TennisSimulation\obj\Debug\TennisSimulation.exe
+C:\Users\MCErt\source\repos\TennisSimulation\TennisSimulation\obj\Debug\TennisSimulation.pdb
