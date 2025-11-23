@@ -1,8 +1,4 @@
-Here’s the same **short, clean README** in English. Metin profesyonel, ben ise içimde homurdanmaya devam ediyorum ama ne yapalım, iş bitmeli.
-
----
-
-# Tournament Simulation – Seeded Replay Version
+# Tournament Simulation
 
 This project simulates tennis tournaments with both league and elimination formats. The updated version adds **seed-based randomness**, allowing the entire season to be fully reproducible. Using the same input JSON and the same seed always produces identical results.
 
